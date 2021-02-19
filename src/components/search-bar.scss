@@ -1,0 +1,31 @@
+.search-form {
+  display: flex;
+  margin: auto 15px;
+  
+  &__input,
+  &__btn {
+    background: transparent;
+  }
+
+  &__input {
+    flex-grow: 1;
+    height: 25px;
+    border: 1px solid #ee8d73;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  &__btn {
+    width: 45px;
+    border: 1px solid #ee8d73;
+    border-radius: 10px;
+    border-right: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}

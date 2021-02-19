@@ -1,0 +1,26 @@
+.current-weather {
+  background: #fd9a80;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  &__main-content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__temperature, &__description {
+    margin: 2px;
+  }
+
+  &__temperature {
+    font-size: 48px;
+    margin: 2px;
+  }
+}
